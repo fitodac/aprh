@@ -1,0 +1,89 @@
+/*-----------------------------------------------*/
+/*	RESPONSIVE
+/*	Bootstrap media queries
+/*-----------------------------------------------*/
+@media screen and (max-width: 991px) {
+
+
+	.main-header nav.navbar{
+
+		.navbar-brand{
+			margin: 5px 15px;
+
+			.brand{
+				height: 50px;
+			}//brand
+
+		}//navbar-brand
+
+		.nav-link:after{
+			display: none;
+		}
+
+	}//nav.navbar 
+
+
+
+	.navbar-toggle.collapsed,
+	.navbar-toggle.collapsed:hover{
+		margin: 20px 15px;
+		display: block;
+	}
+
+
+
+
+	.social{
+		> span{ display: none; }
+	}//social
+
+
+	#schedule .h4{
+		width: calc(100% - 140px);
+		white-space: initial;
+	}
+
+
+	.downloads-banner:active>.container, 
+	.downloads-banner:focus>.container, 
+	.downloads-banner:hover>.container,
+	.downloads-banner:active video, 
+	.downloads-banner:focus video, 
+	.downloads-banner:hover video{
+		transform: none;
+	}
+
+
+	.downloads-banner{
+
+		.banner{
+			width: 100%;
+		}//banner
+
+		.download-icon{
+			width: 90px;
+			height: 90px;
+			margin-right: 40px;
+		}//download-icon
+
+		.h3{
+			font-size: 2rem;
+			padding-left: 130px;
+		}//h3
+
+		.h3 + p{
+			padding-left: 130px;
+		}
+
+		video{
+			opacity: .5;
+		}
+
+	}//downloads-banner 
+
+
+}//max-width: 991px
+
+
+
+

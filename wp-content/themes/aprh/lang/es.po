@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 2.0.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+
+msgid "Read more"
+msgstr "Leer más"
+
+# -----------------------------------------------#
+# -----------------------------------------------#
+#: inc/menu.php
+msgid "Primary Menu"
+msgstr "Menú primario"
+
+#: inc/menu.php
+msgid "Secondary Menu"
+msgstr "Menú scundario"
+
+#: inc/menu.php
+msgid "404 Usefull links"
+msgstr "404"
+
+# -----------------------------------------------#
+# -----------------------------------------------#
+#: 404.php
+msgid "Sorry"
+msgstr "Lo sentimos"
+
+msgid "The page you were trying to view does not exist."
+msgstr "La página solicitada puede no estar disponible, haber cambiado de dirección o no existir"
+
+# -----------------------------------------------#
+# -----------------------------------------------#
+#: template-parts/content-none.php
+msgid "Nothing Found"
+msgstr "No hemos podido encontrar lo que buscabas"
+
+msgid "Sorry, there's no content in this page yet."
+msgstr "Lo sentimos, aún no hay contenidos para esta página"
+
+msgid "Sorry, there's no posts published yet."
+msgstr "Lo sentimos, aún no hay contenidos para esta página"
+
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+# -----------------------------------------------#
+# -----------------------------------------------#
+#: templates/content.php
+msgid "Featured"
+msgstr "Destacado"
+
+# -----------------------------------------------#
+# -----------------------------------------------#
+#: inc/extras.php
+msgid "Posted on"
+msgstr "Publicado el"
+
+msgid "Updated on"
+msgstr "Actualizado el"
+
+# -----------------------------------------------#
+# -----------------------------------------------#
+#: single.php
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "Previous"
+msgstr "Previo"
+
+msgid "Comments"
+msgstr "Comentarios"
+
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario <span class=\"screen-reader-text\"> en %s</span>"
+
+# -----------------------------------------------#
+# -----------------------------------------------#
+#: inc/widgets
+msgid "Display a list of categories"
+msgstr "Categorías"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+msgid "Categories"
+msgstr "Categorías"
+
+msgid "Show empty categories"
+msgstr "Mostrar categorías vacías"

@@ -1,0 +1,119 @@
+.hero{
+	background: transparent;
+	color: #fff;
+	height: 400px;
+	position: relative;
+
+
+
+	> .container{
+		padding-top: 140px;
+	}
+
+
+	.site-title{
+		background: #fff;
+		color: $blue-dark;
+		font-family: $lato;
+		line-height: 1.1;
+		padding: 40px;
+		margin: 0;
+		position: absolute;
+		box-shadow: 0 5px 40px rgba(#000,.5);
+
+
+		.header{
+			padding-bottom: 10px;
+			display: block;
+		}//header
+
+
+		span{
+			display: block;
+		}//span
+
+
+		.event-num{
+			font-size: 200px;
+			line-height: .7;
+			font-weight: 300;
+			text-indent: -13px;
+			float: left;
+		}//event-num
+
+
+		.event-ordinal{
+			font-size: 80px;
+			line-height: .7;
+			font-weight: 500;
+			height: 35px;
+		}//event-ordinal
+
+
+		.event-supertitle{
+			font-size: 21px;
+			line-height: 1;
+			font-weight: 500;
+			padding-bottom: 5px;
+		}//event-supertitle
+
+
+		.event-title{
+			font-size: 45px;
+			font-weight: 400;
+			line-height: 1;
+			text-transform: uppercase;
+		}//event-title
+
+
+		.event-date{
+			font-size: 20px;
+			font-weight: 600;
+		}//event-date
+
+
+		.event-location{
+			font-size: 27px;
+			font-weight: 500;
+		}//event-location
+
+
+		.event-city{
+			font-size: 20px;
+			font-weight: 500;
+		}//event-city
+
+
+	}//site-title
+
+
+}//hero
+
+
+
+
+
+
+
+.hero-parallax{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+
+
+.hero + .container{
+	padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+

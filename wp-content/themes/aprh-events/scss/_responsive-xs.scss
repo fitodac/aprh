@@ -1,0 +1,197 @@
+/*-----------------------------------------------*/
+/*	RESPONSIVE
+/*	Bootstrap media queries
+/*-----------------------------------------------*/
+@media screen and (max-width: 768px) {
+
+
+	html{
+		font-size: 14px;
+	}
+
+
+
+	.main-header nav.navbar .nav-item{
+		width: 50%;
+		float: left;
+	}
+
+
+	.hero{
+		height: auto;
+
+		.site-title{
+			text-align: center;
+			padding: 30px;
+			position: relative;
+
+
+			.header{
+				padding-bottom: 15px;
+				text-align: left;
+				display: inline-block;
+			}//header
+
+			.event-num{
+				font-size: 160px;
+			}//event-num
+
+			.event-ordinal{
+				font-size: 70px;
+				height: 30px;
+			}//event-ordinal
+
+			.event-supertitle{
+				font-size: 19px;
+				line-height: .7;
+			}//event-supertitle
+
+			.event-title{
+				font-size: 35px;
+				padding-left: 80px;
+			}//event-title
+
+			.event-date{
+				font-size: 18px;
+			}//event-date
+
+			.event-location{
+				font-size: 22px;
+			}//event-location
+
+			.event-city{
+				font-size: 18px;
+			}//event-city
+
+		}//site-title
+
+	}//hero 
+
+
+
+	.social{
+		text-align: center;
+		padding-top: 30px;
+	}//social
+
+
+
+	#schedule{
+
+		.date{
+			width: 70px;
+			padding: 7px;
+			margin-right: 15px;
+		}//date
+
+		.h4{
+			width: calc(100% - 100px);
+		}//h4
+
+
+		.panel-collapse .card-block{
+			padding-left: 85px;
+		}//card-block
+
+
+		.btn-join{
+			padding-top: 8px;
+			padding-bottom: 8px;
+			margin: 0 0 20px;
+			float: none;
+		}//btn-join
+
+		.btn-link{
+			margin: 0;
+		}//btn-link
+
+	}//schedule 
+
+
+
+
+
+	[id^="program-"]{
+		.card-block + .card-block .row{
+			text-align: center;
+		}
+	}//[id^="program-"]
+
+
+
+
+	.downloads-banner{
+
+		.banner{
+			width: 100%;
+			text-align: center;
+		}//banner
+
+		.download-icon{
+			width: 90px;
+			height: 90px;
+			margin: 0 auto 30px;
+			display: block;
+			float: none;
+		}//download-icon
+
+		.h3{
+			font-size: 1.5rem;
+			font-weight: 600;
+			padding-left: 0;
+		}//h3
+
+		.h3 + p{
+			padding-left: 0;
+		}
+
+		video{
+			width: auto;
+			height: 100%;
+			opacity: .5;
+		}
+
+	}//downloads-banner 
+
+
+
+	#inscripciones+.container{
+		padding-top: 80px;
+	}
+
+
+
+	.form-join form .btn{
+		width: auto;
+		width: 100%;
+	}
+
+
+
+}//max-width: 768px
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+	
+	.main-header nav.navbar .nav-item{
+		width: auto;
+		float: none;
+	}
+
+}//max-width: 440px
+
+
+
+
+
+
+
+
+
+

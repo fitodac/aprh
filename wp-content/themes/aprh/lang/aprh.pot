@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Read more"
+msgstr ""
+
+
+
+
+#-----------------------------------------------#
+#: inc/menu.php
+#-----------------------------------------------#
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/menu.php
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/menu.php
+msgid "404 Usefull links"
+msgstr ""
+
+
+
+
+#-----------------------------------------------#
+#: 404.php
+#-----------------------------------------------#
+msgid "Sorry"
+msgstr ""
+
+msgid "The page you were trying to view does not exist."
+msgstr ""
+
+
+
+
+#-----------------------------------------------#
+#: template-parts/content-none.php
+#-----------------------------------------------#
+msgid "Nothing Found"
+msgstr "No hay nada"
+
+msgid "Sorry, there's no content in this page yet."
+msgstr ""
+
+msgid "Sorry, there's no posts published yet."
+msgstr ""
+
+msgid "Ready to publish your first post? <a href="%1$s">Get started here</a>."
+msgstr ""
+
+
+
+
+
+#-----------------------------------------------#
+#: templates/content.php
+#-----------------------------------------------#
+msgid "Featured"
+msgstr ""
+
+
+
+
+#-----------------------------------------------#
+#: inc/extras.php
+#-----------------------------------------------#
+msgid "Posted on"
+msgstr ""
+
+msgid "Updated on"
+msgstr ""
+
+
+
+
+
+#-----------------------------------------------#
+#: single.php
+#-----------------------------------------------#
+msgid "Next"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Leave a comment<span class="screen-reader-text"> on %s</span>"
+msgstr ""
+
+
+
+#-----------------------------------------------#
+#: inc/widgets
+#-----------------------------------------------#
+msgid "Display a list of categories"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Taxonomy"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Show empty categories"
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

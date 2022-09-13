@@ -1,0 +1,326 @@
+
+/*----------------------------------------------------*/
+/*	EVENTS SECTION
+/*----------------------------------------------------*/
+#events{
+
+	.events-slider-wrapper{
+
+		> .h2{
+			color: $green-sea;
+			font-size: 3rem;
+			font-weight: 500;
+			width: 70px;
+			float: left;
+			transform: rotate(-90deg);
+			transform-origin: 130px 125px;
+		}// > .h2
+
+
+
+		.events-slider{
+			width: calc(100% - 80px);
+			margin-left: 80px;
+			float: left;
+			
+			.item{
+				
+				.img-featured{
+					position: relative;
+
+
+					img{
+						width: 100%;
+						transition: .3s;
+					}
+
+
+					header{
+						background: #0088A2;
+						width: calc(100% - 20px);
+						margin: 0 10px;
+						display: block;
+						bottom: -15px;
+						position: absolute;
+						overflow: hidden;
+						box-shadow: 0 5px 10px rgba(#000,.4);
+
+						.title{
+							color: #fff;
+							font-size: 1.2rem;
+							font-weight: 500;
+							display: block;
+							padding: 6px 10px;
+						}//title
+
+						.btn{
+							background: #4E4F51;
+							color: #fff;
+							font-size: .8rem;
+							font-weight: 500;
+							margin-bottom: -36px;
+							border-radius: 0;
+
+							&:hover, &:active, &:focus{
+								background: darken(#4E4F51,6%);
+							}
+						}//btn
+
+					}//header
+
+
+					.date{
+						background: rgba(#000,.7);
+						color: #fff;
+						line-height: 1;
+						text-align: center;
+						padding: 12px 7px 8px;
+						top: 0;
+						right: 10px;
+						position: absolute;
+
+						.d{
+							font-size: 1.6rem;
+							font-weight: 500;
+							padding-bottom: 3px;
+							display: block;
+						}
+
+						.m{
+							font-size: .7rem;
+							font-weight: 600;
+							text-transform: uppercase;
+							padding-bottom: 3px;
+							display: block;
+						}
+
+						.y{
+							font-size: .7rem;
+							font-weight: 600;
+							display: block;
+						}
+
+					}//date
+
+				}//img-featured
+
+
+				.excerpt{
+					font-size: .9rem;
+					padding: 25px 10px 0;
+				}//excerpt
+
+
+
+
+
+				&:hover{
+
+					.img-featured{ 
+						
+						header{
+						
+							.btn{
+								margin-bottom: 0;
+							}//:hover .btn
+						}//header
+
+						img{
+							opacity: .6;
+						}//img
+
+					}//img-featured
+
+				}//item:hover
+
+			}//item
+
+
+
+
+
+			.owl-item:nth-child(even){
+
+				header{
+					background: #01A185;
+				}//header
+
+			}//owl-item:nth-child(even)
+
+
+			&.owl-carousel .owl-nav{
+				width: auto;
+				left: -70px;
+				top: 230px;
+
+				.owl-next, 
+				.owl-prev{
+					background: #cfe3e4;
+					width: 46px;
+					height: 46px;
+					padding: 9px;
+					margin-bottom: 3px;
+					display: block;
+					position: relative;
+					transform: translate(0);
+
+					&::before{
+						width: 26px;
+						height: 26px;
+						opacity: .6;
+					}//::before
+				}//.owl-next, .owl-prev
+
+			}//owl-nav
+
+		}//events-slider
+
+
+	}//events-slider-wrapper
+
+}//events
+
+
+
+
+
+
+
+
+/*----------------------------------------------------*/
+/*	SINGLE EVENT
+/*----------------------------------------------------*/
+.single-eventos{
+	padding-top: 130px;
+
+
+	h1{
+		font-size: 2.2rem;
+		margin-bottom: 20px;
+	}
+
+
+	.featured-image{
+		margin-bottom: 40px;
+	}//featured-image
+
+
+
+	.date{
+		background: #ddd;
+		text-align: center;
+		padding: 14px;
+		margin-bottom: 50px;
+		display: inline-block;
+		
+		> span{
+			line-height: 1;
+			display: block;
+		}// > span
+
+		.m{
+			font-size: 1.1rem;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+
+		.d{
+			font-size: 2.3rem;
+		}
+
+		.y{
+			font-size: .8rem;
+			font-weight: 600;
+		}
+
+	}//date
+
+
+
+
+
+
+
+	.details{
+		padding-bottom: 40px;
+
+		.h5{
+			font-size: 1.1rem;
+			font-weight: 600;
+		}//h5
+
+
+		.dl-horizontal{
+
+			dt{
+				text-align: left;
+				padding-top: 10px;
+			}//dt
+			
+			dd{
+				padding-top: 10px;
+				margin-bottom: 0;
+
+				&::after{
+					content: '';
+					background: #ddd;
+					height: 1px;
+					width: calc(100% + 180px);
+					left: -180px;
+					bottom: 0;
+					position: relative;
+				}//::after
+
+
+				&:last-child::after{
+					display: none;
+				}
+			}//dd
+
+			p{
+				margin-bottom: 10px;
+			}
+
+		}//dl-horizontal
+
+	}//details
+
+
+
+
+	.address{
+		line-height: 1.2;
+
+		.ti-location-pin{
+			color: #999;
+			font-size: 35px;
+			margin-right: 7px;
+			float: left;
+		}//ti-location-pin
+
+	}//address
+
+
+
+
+	.gmap{
+		height: 280px;
+	}//gmap
+
+
+
+}//single-eventos
+
+
+
+
+
+
+
+
+
+
+
+
+
+

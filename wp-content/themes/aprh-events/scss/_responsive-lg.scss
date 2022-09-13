@@ -1,0 +1,91 @@
+/*-----------------------------------------------*/
+/*	RESPONSIVE
+/*	Bootstrap media queries
+/*-----------------------------------------------*/
+
+// LG
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}//max-width: 1824px
+
+
+
+
+@media screen and (max-width: 1440px) {
+
+}//@media screen and (max-width: 1440px)
+
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}//max-width: 1224px
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+	.hero{
+		height: 350px;
+
+		.site-title{
+
+
+			.header{
+				padding-bottom: 15px;
+			}//header
+
+			.event-num{
+				font-size: 160px;
+			}//event-num
+
+			.event-ordinal{
+				font-size: 70px;
+				height: 30px;
+			}//event-ordinal
+
+			.event-supertitle{
+				font-size: 19px;
+				line-height: .7;
+			}//event-supertitle
+
+			.event-title{
+				font-size: 35px;
+			}//event-title
+
+			.event-date{
+				font-size: 18px;
+			}//event-date
+
+			.event-location{
+				font-size: 22px;
+			}//event-location
+
+			.event-city{
+				font-size: 18px;
+			}//event-city
+
+		}//site-title
+
+	}//hero 
+
+
+
+}//@media screen and (max-width: 1200px)
+
+
+
+
+
+
+
+
+
+
+
+
+

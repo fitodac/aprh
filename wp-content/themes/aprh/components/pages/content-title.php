@@ -1,0 +1,1 @@
+<h3 class="section-title" data-aos="fade-up"><?php the_sub_field('title'); ?></h3>

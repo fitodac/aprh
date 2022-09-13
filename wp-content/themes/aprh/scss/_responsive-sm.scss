@@ -1,0 +1,133 @@
+/*-----------------------------------------------*/
+/*	RESPONSIVE
+/*	Bootstrap media queries
+/*-----------------------------------------------*/
+@media screen and (max-width: 991px) {
+
+	html{
+		font-size: 13.7px;
+	}
+
+
+	.container-sm{
+		width: 100%;
+	}//container-sm
+
+
+	.main-header nav.navbar{
+
+		.navbar-brand .brand{
+			width: 100px;
+			height: 50px;
+		}//brand
+
+
+		.nav-link{
+			font-size: .85rem;
+			padding: 20px 10px;
+		}//nav-link
+
+	}//nav.navbar 
+
+
+
+
+	.page-header{
+		margin-top: 54px;
+
+
+		h1{
+			padding: 10px 30px;
+		}//h1
+	}//page-header
+
+
+
+
+	#news{
+
+		.news-slider.owl-carousel .owl-nav{
+			padding-left: 0;
+			margin-left: -25px;
+		}
+
+		.news-slider + .link-to-news{
+			padding: 8px 32px;
+			bottom: -15px;
+		}
+
+	}//news 
+
+
+
+	.hero .brand-white{
+		width: 290px;
+		height: 210px;
+		margin-top: -105px;
+		margin-left: -145px;
+	}
+
+
+
+	body.single article{
+
+		.container{
+			width: 100%;
+		}//container
+
+		header .display-4{
+			font-size: 2.2rem;
+		}//display-4
+
+	}//article 
+
+
+	// body.single .addthis_inline_share_toolbox_3dez
+
+
+	main > .container .nav-posts{
+		opacity: 1;
+		visibility: visible;
+
+
+		a{
+			width: 54px;
+			height: 54px;
+			padding: 10px;
+		}
+	}//nav-posts
+
+
+
+	body.single-eventos{
+		padding-top: 80px;
+	}//single-eventos
+
+
+
+
+	.contact-form{
+		bottom: -70px;
+
+
+		.wpcf7-textarea{
+			height: 130px;
+		}//wpcf7-textarea
+
+	}//contact-form
+
+
+
+}//max-width: 991px
+
+
+
+
+
+
+
+
+
+
+
+

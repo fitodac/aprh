@@ -1,0 +1,72 @@
+
+
+.downloads{
+
+	.card{
+		margin-bottom: 20px;
+		position: relative;
+	}//card
+
+
+	header{
+		height: 130px;
+	}
+
+
+	.date{
+		color: #999;
+		padding-bottom: 10px;
+		display: block;
+	}
+
+
+	h3{
+		font-size: 1.1rem;
+		font-weight: 500;
+		line-height: 1.2;
+	}//h3
+
+
+	.btn{
+		background: #bfc1c4;
+		color: #fff;
+		text-transform: uppercase;
+
+
+		&:hover,
+		&:active,
+		&:focus{
+			background: $green;
+		}
+
+	}//btn
+
+
+
+	.file-type{
+		color: #fff;
+		font-size: .8rem;
+		line-height: 1;
+		font-weight: 600;
+		text-transform: uppercase;
+		padding: 4px 12px;
+		top: 10px;
+		right: 0;
+		position: absolute;
+
+		&.file-pdf{ background: #dc3821; }
+		&.file-word{ background: #227fbb; }
+		&.file-video{ background: #2d97de; }
+		&.file-img{ background: #f59d00; }
+	}//file-type
+
+}//downloads
+
+
+
+
+
+
+
+
+
